@@ -1,0 +1,260 @@
+@media screen and (max-width:991px){
+    /* .header-counselor .header-link .ancores ul{
+        display: none;
+    } */
+
+.header-counselor{
+background-color: #000;
+  }
+.header-counselor .header-link .heading-h3 a{
+  color: #fff;
+}
+.manu,.close{
+  display: block !important;
+}
+.manu a{
+  color: #fff;
+  
+}
+.header-counselor .header-link .ancores {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  padding: 1em .5em;
+  top: 0;
+  width:30%;
+  right: 0;  
+  opacity: 0;
+  transform: translateX(100%);
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.manu_active{
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+
+
+
+
+.header-counselor .header-link .ancores ul{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-counselor .header-link .ancores ul li a{
+  color: white;
+  padding: .5em 1em;
+  display: inline-block;
+
+}
+
+    .confidential-section .confidential-content{
+        padding: 0;
+    }
+    .confidential-section .container{
+        margin: 0 auto;
+        width: 80%;
+      }
+      .confidential-section .confidential-content .box-contant{
+        display: inherit;
+       padding: 5em 1em;
+      }
+      .affordable-section .affordable-box .box-contant{
+        padding:2em 1em;
+      }
+      .affordable-section .affordable-box .box-contant button.btn{
+        padding: 1em;
+        margin: 40px 0;
+      }
+      .affordable-section .affordable-box .box-contant sup.center-2{
+        top: 1.5em;
+        left:13.6em;
+    }
+    .affordable-section .affordable-box .box-contant sup.center-1{
+        top: 1.5em;
+        left:24.6em;
+        position: absolute;
+    }
+    .affordable-section .affordable-box .box-contant sup{
+        font-size: 24px;
+        top: 1.6em;
+        left:2.5em;
+        position: absolute;
+        color: #b3b3b3;
+    }
+    .footer-section .footer-contant{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .worldwide-section .container .text-center-contant{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .send-message-section .full-input textarea{
+        width: 50%;
+    }
+
+
+
+    .client-information .client-information-flex{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .client-information .client-information-flex .client-information-box{
+        width: 80%;
+    }
+
+
+    .services-section .overlay .services-contant h1{
+        font-weight: 500;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:767px){
+        .confidential-section .confidential-content{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .confidential-section .confidential-content .box-contant{
+            padding: 2em;
+        }
+        .confidential-section .confidential-content .box-contant i{
+            padding-bottom: 20px;
+        }
+        .Services-section .circle-box{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .counseling-funding-section .counseling-area .image{
+            display: none;
+        }
+        .counseling-funding-section .counseling-area .image-contant{
+            width: 100%;
+        }
+        .situation-section .situation-contant{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .affordable-section .affordable-box{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .affordable-section .affordable-box .box-contant{
+            /* width: 110; */
+            padding-top: 20px;
+        }
+        .affordable-section .affordable-box .box-contant sup{
+          font-size: 24px;
+          top: 1.2em;
+          left: 7.5em;
+          position: absolute;
+          color: #b3b3b3;
+          top: 28px;
+          left: 6em;
+        }
+        .affordable-section .affordable-box .box-contant sup.center-1{
+            top: 18.9em;
+            left:7.3em;
+            position: absolute;
+        }
+        .affordable-section .affordable-box .box-contant sup.center-2{
+            top: 37em;
+            left:6.8em;
+        }
+        .affordable-section .affordable-box .box-contant button.btn{
+            width: 100%;
+            margin: 10px 0;
+          }
+          .affordable-section .affordable-box .box-contant ul.pricing{
+            margin-top: 20px;
+          }
+          .send-message-section .half-input{
+            grid-template-columns: repeat(1,1fr);
+          }
+          .send-message-section button.message-btn,
+          .send-message-section .full-input textarea,
+          .send-message-section .full-input input,
+          .send-message-section .half-input input{
+            width: 100%;
+          }
+          .recent-blog-section .row .socail-media-info{
+            width: 100%;
+            grid-template-columns: repeat(1,1fr);
+          }
+          .footer-section .footer-contant{
+            grid-template-columns: repeat(1,1fr);
+          }
+
+
+          .counseling-funding-section .counseling-area{
+            grid-template-columns: repeat(1,1fr);
+          }
+          .counseling-funding-section .counseling-area .image-contant h5{
+            margin-top: 50px;
+          }
+          .counseling-funding-section .counseling-area .image-contant{
+            width: 100%;
+          }
+          .counseling-funding-section .counseling-area .image-contant h1{
+            font-size: 28px;
+          }
+          .counseling-funding-section .counseling-area .flex{
+            margin-bottom: 30px;
+          }
+          .worldwide-section .container .text-center-contant{
+            grid-template-columns: repeat(1,1fr);
+            padding-top: 50px;
+          }
+          .worldwide-section .container .text-center-contant .number-contant{
+            margin-top: 50px;
+          }
+          .send-message-section button.message-btn,
+          .send-message-section .full-input textarea,
+          .send-message-section .half-input input,
+          .send-message-section .full-input input{
+            width: 80%;
+          }
+
+
+
+          .client-information .client-information-flex{
+            grid-template-columns: repeat(1, 1fr);
+           
+        }
+        .client-information .client-information-flex .client-information-box{
+            width: 50%;
+            margin: 50px auto;
+            padding: -4em;
+        }
+        .client-information .client-information-flex .client-information-box .client-information-box-contant{
+            padding:0 2em;
+        }
+        .affordable-section .affordable-box{
+            width: 100%;
+            /* margin: 50px 70px; */
+        }
+        .affordable-section .contant-box-area h2{
+            font-size: 28px;
+        }
+        .counselor-section .overlay .counselor-contant h1{
+            font-weight: 500;
+            padding:.1em 3em;
+        }
+
+
+        .Services-section .Services-content h2{
+            font-size: 28px;
+        }
+        .situation-section .container .relation-problem-box{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
